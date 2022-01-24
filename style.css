@@ -1,0 +1,63 @@
+.header {
+    padding-left: 15px;
+    background-color: black;
+    display: flex;
+    justify-content:  space-between;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+  
+}
+body{
+    background-color: whitesmoke;
+}
+.menu a {
+    margin-left: 20px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.item {
+    position: relative;
+    border-radius: 50px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+
+}
+
+.item p{
+    color:rgb(9, 39, 19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+h1{
+                
+    color: white;
+
+    
+
+}
+.img{
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+
+
+
+
